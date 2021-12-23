@@ -1,0 +1,49 @@
+.sidebar{
+    display:flex;
+    flex-direction:column;
+    flex:30%;
+}
+.sidebar-header{
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+    border-right:2px solid #e1e1e1;
+}
+.sidebar-header-right{
+    display:flex;
+    align-items: center;
+    min-width:10vw;
+}
+.sidebar-search{
+    display:flex;
+    align-items: center;
+    background-color: #f6f6f6;
+    height:30px;
+    padding:10px;
+}
+.sidebar-search-container{
+    display:flex;
+    align-items: center;
+    height:35px;
+    width:100%;
+    border-radius: 18px;
+    background-color: white;
+}
+.sidebar-search-container > .MuiSvgIcon-root{
+    color:grey;
+    padding:15px;
+}
+
+.sidebar-search-container > input {
+    border:none;
+    padding-left:15px;
+    color:grey;
+    outline-width: 0;
+    width:80%;
+}
+.sidebar-allChats{
+    flex:1;
+    background-color: white;
+    overflow-y:scroll;
+}
+
